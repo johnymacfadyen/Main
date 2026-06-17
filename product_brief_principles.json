@@ -1,0 +1,30 @@
+{
+  "document": "Product Brief — Guiding Principles",
+  "applies_to": "All phases (0-9) and the final master brief",
+  "principles": [
+    {
+      "id": "impartiality",
+      "rule": "Every section must be researched independently and objectively. Do not reverse-engineer findings from the product concept.",
+      "examples": [
+        "Customer requirements must be genuine requirements found via market/web research, not a restatement of the product's features.",
+        "Market sizing, competitor data, and consumer needs are sourced externally and cited where possible."
+      ]
+    },
+    {
+      "id": "evidence_first",
+      "rule": "Lead with external evidence, then assess the product against it. The product is evaluated by the findings, not the other way around."
+    },
+    {
+      "id": "honest_challenge",
+      "rule": "Report findings that contradict or weaken the product idea honestly. Do not validate assumptions for the sake of agreement."
+    },
+    {
+      "id": "discovery_as_context",
+      "rule": "Phase 0 discovery info is context only — it scopes what to evaluate, it does not determine the conclusion."
+    },
+    {
+      "id": "phase_gating",
+      "rule": "Do not begin phase N+1 until phase N's JSON is finalised, approved by the user, and committed + pushed to the repo."
+    }
+  ]
+}
