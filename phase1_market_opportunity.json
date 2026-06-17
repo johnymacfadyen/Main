@@ -1,0 +1,66 @@
+{
+  "phase": 1,
+  "phase_name": "Market Opportunity",
+  "output_file": "phase1_market_opportunity.json",
+  "status": "draft_for_approval",
+  "date": "2026-06-17",
+  "methodology_note": "Researched independently via lightweight web search. Figures vary by source and by category definition (snack bars vs healthy snacks vs energy/nutrition bars); ranges and caveats are stated rather than a single false-precision number.",
+  "data_caveats": [
+    "Market-size figures are from commercial research-report publishers and differ in scope and methodology; treat as directional, not audited.",
+    "New Zealand-specific market-size figures were sparse in lightweight search; NZ is assessed largely via population scale and category trend data.",
+    "Currency mixed across sources (AUD and USD) — noted per figure."
+  ],
+  "market_sizing": {
+    "australia": {
+      "snack_bars_market_value_2025": "~AUD 1.03 billion (one source); ~AUD 1.14 billion (another) — directional ~AUD 1.0-1.15bn",
+      "snack_bars_cagr": "~10.3% CAGR 2025-2034 (to ~AUD 2.76bn by 2034)",
+      "healthy_snacks_market_value_2025": "~USD 1.92 billion, CAGR ~4.8% 2026-2034 (to ~USD 2.96bn by 2034)",
+      "population_context": "~27 million",
+      "assessment": "Sizeable, fast-growing category with strong clean-label tailwinds."
+    },
+    "new_zealand": {
+      "market_value_2025": "No reliable standalone figure found in lightweight search; category described as improving in 2025 (better supply-chain efficiency, lower commodity costs).",
+      "population_context": "~5.2 million (roughly 1/5 of Australia)",
+      "assessment": "Materially smaller addressable market by population; useful as a test/launch beachhead but limited ceiling on its own."
+    }
+  },
+  "consumer_trends_evidence": {
+    "clean_label_demand": "Australian consumers increasingly favour clean-label products, real/natural ingredients, no artificial flavours or colours, and traditionally crafted / locally sourced claims — directly aligned with the product's core proposition.",
+    "decision_drivers": "Over 50% of Australian consumers cite taste and cost as leading considerations; authenticity and transparency are rising.",
+    "functional_health": "Rising interest in functional foods, high protein/fibre, reduced sugar, plant-based, and eco-friendly packaging.",
+    "new_zealand": "'Adding good natural ingredients and eliminating the bad' cited as a core trend propelling 2026; growth in better-for-you categories.",
+    "impartial_note": "Evidence supports demand for natural/clean energy snacks, BUT taste and price are the dominant purchase drivers — a clean-ingredient story alone is not sufficient; taste and value must hold up."
+  },
+  "trans_tasman_strategic_finding": {
+    "headline": "Manufacturing in NZ does NOT lock the brand into the smaller NZ market.",
+    "mechanism": "Under the Trans-Tasman Mutual Recognition Arrangement (TTMRA) and CER, a product made in or imported into NZ and legally sold there may be sold in Australia (and vice versa) without border inspection. Food standards are harmonised under FSANZ / the Australia New Zealand Food Standards Code.",
+    "implication": "The Yak Co can manufacture via NZ Fin (low MOQ, oat-capable) AND target the much larger Australian market with low regulatory friction and shared compliance — de-risking the founder's manufacturing constraint.",
+    "trade_context": "Australia is NZ's most important trading partner; two-way trade ~AUD 32.76bn in 2024 under CER (described as among the world's most comprehensive FTAs)."
+  },
+  "opportunity_assessment": {
+    "where_opportunity_is_strongest": "Australia — larger market, higher CAGR for snack bars (~10.3%), strong clean-label tailwind.",
+    "manufacturing_reality": "New Zealand — the only viable oat-capable, low-MOQ manufacturing route found (NZ Fin).",
+    "synthesis": "TTMRA reconciles the two: make in NZ, sell into Australia. A possible sequencing is a soft NZ launch (close to manufacturing, lower logistics, test market) then primary push into Australia where the addressable market and growth are largest.",
+    "open_questions_for_user": [
+      "Confirm whether the strategic intent is single-market launch or NZ-beachhead-then-Australia.",
+      "Validate freight/landed-cost from NZ manufacturing into Australian retail (affects premium margin) — to be quantified in the Business Plan.",
+      "Target per-bar retail price still undefined (needed to size revenue opportunity)."
+    ]
+  },
+  "preliminary_recommendation": {
+    "summary": "Evidence leans toward Australia as the primary commercial market (scale + growth + clean-label demand), manufactured in NZ via NZ Fin, leveraging TTMRA for frictionless trans-Tasman sale. NZ is a credible low-risk soft-launch beachhead but too small to be the end goal alone.",
+    "confidence": "Moderate — directional market figures only; landed-cost economics not yet modelled."
+  },
+  "sources": [
+    {"title": "Australia Snack Bars Market Size and Share Outlook (2025-2034)", "url": "https://www.researchandmarkets.com/reports/6189883/australia-snack-bars-market-size-share-outlook"},
+    {"title": "Australia Snack Bar Market Report and Forecast 2025-2034", "url": "https://www.researchandmarkets.com/reports/6077057/australia-snack-bar-market-report-forecast"},
+    {"title": "Australia Healthy Snacks Market Size and Forecast 2034 (IMARC)", "url": "https://www.imarcgroup.com/australia-healthy-snacks-market"},
+    {"title": "Top food trends in Australia 2025 (Innova Market Insights)", "url": "https://www.innovamarketinsights.com/trends/top-food-trends-in-australia-2025-key-consumer-insights/"},
+    {"title": "Australia & New Zealand Food Flavors and Enhancers Market Report 2025-2034", "url": "https://www.researchandmarkets.com/reports/6112737/australia-new-zealand-food-flavors-enhancers"},
+    {"title": "Food trends in New Zealand (Innova Market Insights)", "url": "https://www.innovamarketinsights.com/trends/food-trends-in-new-zealand-consumer-insights-and-preferences/"},
+    {"title": "Sweet Biscuits, Snack Bars and Fruit Snacks in New Zealand (Euromonitor)", "url": "https://www.euromonitor.com/sweet-biscuits-snack-bars-and-fruit-snacks-in-new-zealand/report"},
+    {"title": "Australia-New Zealand Closer Economic Relations Trade Agreement (DFAT)", "url": "https://www.dfat.gov.au/trade/agreements/in-force/anzcerta/australia-new-zealand-closer-economic-relations-trade-agreement"},
+    {"title": "Trans-Tasman Mutual Recognition Arrangement (NZ MPI)", "url": "https://www.mpi.govt.nz/food-business/food-safety-codes-standards/australia-new-zealand-co-operation/trans-tasman-mutual-recognition-arrangement"},
+    {"title": "Importing food from New Zealand (Australia DAFF)", "url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/food/type/new-zealand"}
+  ]
+}
