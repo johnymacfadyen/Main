@@ -130,55 +130,26 @@
     "impartial_note": "Evidence supports demand for natural/clean energy snacks, BUT taste and price are the dominant purchase drivers — a clean-ingredient story alone is not sufficient; taste and value must hold up."
   },
   "market_growth_drivers": {
-    "note": "Impartial market-level drivers for the snack bar category; not product-specific.",
+    "scope": "Australia only. Impartial, category-level drivers for the snack bar market. NOT filtered or weighted toward any single product's positioning.",
     "australia": [
+      {"driver": "Protein demand", "evidence": "High-protein claims a leading purchase driver; sports-nutrition/protein bars the largest value segment (~49% revenue share, 2025)."},
+      {"driver": "Health-conscious / better-for-you shift", "evidence": "Demand for nutrient-dense, low-sugar, functional snacks replacing less-healthy options."},
       {"driver": "High sports/physical-activity participation", "evidence": "~90% of Australian adults engage in sport annually (Dept. of Health & Aged Care)."},
       {"driver": "Outdoor recreation culture", "evidence": "Camping/hiking/adventure sports + warm climate drive portable, shelf-stable snack demand; niche -> mainstream."},
-      {"driver": "Health-conscious / clean-label shift", "evidence": "Demand for high-protein, nutrient-dense, low-sugar, minimally-processed, transparently-labelled options."},
-      {"driver": "On-the-go convenience", "evidence": "Busy lifestyles; sports-nutrition bars ~49% revenue share (2025)."},
-      {"driver": "Protein demand", "evidence": "High-protein claims a leading purchase driver across the category."},
-      {"driver": "E-commerce growth", "evidence": "Online retail fastest-growing channel (~7.1% CAGR 2026-2033)."}
-    ],
-    "new_zealand": [
-      {"driver": "Health & wellness shift", "evidence": "Demand for plant-based, organic, reduced sugar/salt; baked/lower-fat/gluten-free over fried."},
-      {"driver": "Fitness culture & outdoor lifestyle", "evidence": "Active/outdoor lifestyle a core demand driver across snack categories."},
-      {"driver": "Purposeful nutrition + permissible indulgence", "evidence": "Snacks that are delicious and responsibly made; return to structured routines."},
-      {"driver": "Local & premium preference", "evidence": "Strong food culture favouring high-quality, locally-inspired, values-based snacks."},
-      {"driver": "On-the-go convenience", "evidence": "Clean-label + flavour innovation + on-the-go lifestyle."},
-      {"driver": "Protein & gluten-free attributes", "evidence": "High-protein and gluten-free pivotal ongoing growth drivers (satiety, weight mgmt, allergen avoidance)."}
+      {"driver": "On-the-go convenience", "evidence": "Busy lifestyles driving portable functional snacking."},
+      {"driver": "Clean-label & ingredient transparency", "evidence": "Rising demand for natural, minimally-processed, transparently-labelled products."},
+      {"driver": "Plant-based / vegan / flexitarian shift", "evidence": "Growing demand for plant-protein, nut/seed, and superfood formulations."},
+      {"driver": "E-commerce / DTC growth", "evidence": "Online the fastest-growing retail channel (~7.1% CAGR 2026-2033)."}
     ],
     "context_figures": {
-      "australia": "Healthy snacks USD 1.92bn (2025) -> USD 2.96bn (2034), 4.8% CAGR.",
-      "new_zealand": "Total snack market ~3.6% CAGR to 2030; ~11.2kg snack consumption per person (2025)."
-    },
-    "target_segment_drivers": {
-      "note": "Filtered to the natural / clean-label / fruit-&-nut / endurance pocket that the target segment actually competes in. Applies to both AUS and NZ unless noted.",
-      "drivers": [
-        {"driver": "Clean-label & ingredient transparency", "evidence": "Organic energy bar segment fastest-growing (~9.2% CAGR); a significant driver of AUS snack bar purchasing & formulation."},
-        {"driver": "No-added-sugar / date-sweetened positioning", "evidence": "Date-based bars use natural sweetness to avoid added sugar; aligned with tightening healthy/sugar guidelines."},
-        {"driver": "Fruit & nut sub-segment momentum", "evidence": "Fruit & nut bars ~21% of energy bar market, fast-growing on clean-eating alignment."},
-        {"driver": "Plant-based / vegan / flexitarian shift", "evidence": "A most significant trend in AUS nutritional bars; nuts, seeds, superfoods. Strong in NZ too."},
-        {"driver": "Low-sugar / allergen-aware formulation", "evidence": "Innovation toward low-sugar, allergen-free, plant-based options."},
-        {"driver": "Outdoor/endurance participation", "evidence": "Active/outdoor lifestyle sustaining demand for portable natural fuel."}
-      ],
-      "explicitly_excluded": "High-protein claims / protein-bar demand — the single biggest category driver, but it accrues to protein bars, not natural endurance bars. Excluded to keep the segment analysis honest.",
-      "segment_context_figure": "Global organic energy bar market growing ~8.1-9.2% CAGR, faster than the overall energy/snack bar category.",
-      "sources": [
-        "https://www.marketresearchfuture.com/reports/organic-energy-bar-market-3879",
-        "https://www.mordorintelligence.com/industry-reports/energy-bar-market",
-        "https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market",
-        "https://www.researchandmarkets.com/report/australia-nutrition-bar-market",
-        "https://www.databridgemarketresearch.com/reports/global-energy-and-nutrition-bars-market"
-      ]
+      "australia": "Healthy snacks USD 1.92bn (2025) -> USD 2.96bn (2034), 4.8% CAGR; snack bars ~USD 0.87bn (2026) -> USD 1.2bn (2031), 6.62% CAGR."
     },
     "sources": [
       "https://www.expertmarketresearch.com.au/reports/australia-healthy-snacks-market",
       "https://www.imarcgroup.com/australia-on-the-go-healthy-snacks-market",
       "https://www.fortunebusinessinsights.com/energy-bar-market-112149",
-      "https://www.6wresearch.com/industry-report/new-zealand-nutritional-snacks-market",
-      "https://stock4shops.co.nz/blog/whats-hot-in-nz-snack-market-right-now/",
-      "https://www.euromonitor.com/snacks-in-new-zealand/report",
-      "https://www.statista.com/outlook/cmo/food/confectionery-snacks/snack-food/new-zealand"
+      "https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market",
+      "https://www.researchandmarkets.com/report/australia-nutrition-bar-market"
     ]
   },
   "trans_tasman_strategic_finding": {
