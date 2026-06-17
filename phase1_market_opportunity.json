@@ -129,6 +129,38 @@
     "new_zealand": "'Adding good natural ingredients and eliminating the bad' cited as a core trend propelling 2026; growth in better-for-you categories.",
     "impartial_note": "Evidence supports demand for natural/clean energy snacks, BUT taste and price are the dominant purchase drivers — a clean-ingredient story alone is not sufficient; taste and value must hold up."
   },
+  "market_growth_drivers": {
+    "note": "Impartial market-level drivers for the snack bar category; not product-specific.",
+    "australia": [
+      {"driver": "High sports/physical-activity participation", "evidence": "~90% of Australian adults engage in sport annually (Dept. of Health & Aged Care)."},
+      {"driver": "Outdoor recreation culture", "evidence": "Camping/hiking/adventure sports + warm climate drive portable, shelf-stable snack demand; niche -> mainstream."},
+      {"driver": "Health-conscious / clean-label shift", "evidence": "Demand for high-protein, nutrient-dense, low-sugar, minimally-processed, transparently-labelled options."},
+      {"driver": "On-the-go convenience", "evidence": "Busy lifestyles; sports-nutrition bars ~49% revenue share (2025)."},
+      {"driver": "Protein demand", "evidence": "High-protein claims a leading purchase driver across the category."},
+      {"driver": "E-commerce growth", "evidence": "Online retail fastest-growing channel (~7.1% CAGR 2026-2033)."}
+    ],
+    "new_zealand": [
+      {"driver": "Health & wellness shift", "evidence": "Demand for plant-based, organic, reduced sugar/salt; baked/lower-fat/gluten-free over fried."},
+      {"driver": "Fitness culture & outdoor lifestyle", "evidence": "Active/outdoor lifestyle a core demand driver across snack categories."},
+      {"driver": "Purposeful nutrition + permissible indulgence", "evidence": "Snacks that are delicious and responsibly made; return to structured routines."},
+      {"driver": "Local & premium preference", "evidence": "Strong food culture favouring high-quality, locally-inspired, values-based snacks."},
+      {"driver": "On-the-go convenience", "evidence": "Clean-label + flavour innovation + on-the-go lifestyle."},
+      {"driver": "Protein & gluten-free attributes", "evidence": "High-protein and gluten-free pivotal ongoing growth drivers (satiety, weight mgmt, allergen avoidance)."}
+    ],
+    "context_figures": {
+      "australia": "Healthy snacks USD 1.92bn (2025) -> USD 2.96bn (2034), 4.8% CAGR.",
+      "new_zealand": "Total snack market ~3.6% CAGR to 2030; ~11.2kg snack consumption per person (2025)."
+    },
+    "sources": [
+      "https://www.expertmarketresearch.com.au/reports/australia-healthy-snacks-market",
+      "https://www.imarcgroup.com/australia-on-the-go-healthy-snacks-market",
+      "https://www.fortunebusinessinsights.com/energy-bar-market-112149",
+      "https://www.6wresearch.com/industry-report/new-zealand-nutritional-snacks-market",
+      "https://stock4shops.co.nz/blog/whats-hot-in-nz-snack-market-right-now/",
+      "https://www.euromonitor.com/snacks-in-new-zealand/report",
+      "https://www.statista.com/outlook/cmo/food/confectionery-snacks/snack-food/new-zealand"
+    ]
+  },
   "trans_tasman_strategic_finding": {
     "headline": "Manufacturing in NZ does NOT lock the brand into the smaller NZ market.",
     "mechanism": "Under the Trans-Tasman Mutual Recognition Arrangement (TTMRA) and CER, a product made in or imported into NZ and legally sold there may be sold in Australia (and vice versa) without border inspection. Food standards are harmonised under FSANZ / the Australia New Zealand Food Standards Code.",
