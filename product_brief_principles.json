@@ -25,6 +25,14 @@
     {
       "id": "phase_gating",
       "rule": "Do not begin phase N+1 until phase N's JSON is finalised, approved by the user, and committed + pushed to the repo."
+    },
+    {
+      "id": "sourced_not_fabricated",
+      "rule": "Every factual claim must be supported by a web search with sources presented (links/citations). Never state facts with confidence without checking. Where evidence is thin or conflicting, say so explicitly rather than guess."
+    },
+    {
+      "id": "lightweight_search",
+      "rule": "Use standard lightweight web searches, not the deep-research harness, unless the user explicitly instructs otherwise — to conserve tokens."
     }
   ]
 }
