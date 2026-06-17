@@ -11,6 +11,54 @@
     "Currency mixed across sources (AUD and USD) — noted per figure."
   ],
   "market_sizing": {
+    "framework": "TAM -> SAM -> SOM. TAM captured below, separated by country and by category (energy bar vs snack bar). Australian figures are sourced; NZ figures are estimate/assumption-based and flagged as such.",
+    "TAM": {
+      "australia": {
+        "energy_bar": {
+          "base_data": "AUD 479.28M (2023), CAGR >7% 2023-2028 (sourced)",
+          "tam_2026_derived": "~AUD 587M (479.28 x 1.07^3 - base & CAGR sourced, projection arithmetic)",
+          "tam_2028_derived": "~AUD 672M (479.28 x 1.07^5)",
+          "sources": [
+            "https://www.globaldata.com/store/report/australia-energy-bars-market-analysis/",
+            "https://www.6wresearch.com/industry-report/australia-energy-bar-market"
+          ]
+        },
+        "snack_bar": {
+          "value_2025": "AUD ~1,142.5M (Expert Market Research)",
+          "tam_2026": "~AUD 1.2-1.3bn (Mordor: USD 0.87bn 2026)",
+          "cagr": "~6-7% (range 4.1%-7.18% across sources)",
+          "projected_2030_31": "~USD 1.02-1.2bn",
+          "note": "Sources disagree on currency/scope; treat as directional.",
+          "sources": [
+            "https://www.expertmarketresearch.com.au/reports/australia-snack-bars-market",
+            "https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market",
+            "https://markwideresearch.com/press-release/snacking-evolution-australia-snack-bar-market-set-to-grow-at-a-4-1-cagr-by-2030/"
+          ]
+        }
+      },
+      "new_zealand": {
+        "data_availability": "NZ energy-bar and snack-bar specific values are paywalled (Euromonitor/Mintel). Figures below are user-set assumptions, NOT sourced.",
+        "snack_bar": {
+          "tam_2026_assumption": "AUD 250M (user-assumed)",
+          "cagr_assumption": "3% (user-assumed)",
+          "tam_2031_derived": "~AUD 289.8M (250 x 1.03^5)",
+          "yearly": {
+            "2026": "250.0M",
+            "2027": "257.5M",
+            "2028": "265.2M",
+            "2029": "273.2M",
+            "2030": "281.4M",
+            "2031": "289.8M"
+          }
+        },
+        "supporting_context": "NZ total snack food market ~USD 742M (2025), ~6% growth to 2030 (Statista) - broader than bars.",
+        "sources": [
+          "https://www.statista.com/outlook/cmo/food/confectionery-snacks/snack-food/new-zealand",
+          "https://marketsizesbeta.mintel.com/snapshots/NZL/204/"
+        ]
+      },
+      "global_ceiling_context": "Global energy bar market ~USD 4.12bn (2025) -> USD 4.42bn (2026), ~7.37% CAGR to USD 6.32bn by 2031 (context only, not the working TAM)."
+    },
     "australia": {
       "snack_bars_market_value_2025": "~AUD 1.03 billion (one source); ~AUD 1.14 billion (another) — directional ~AUD 1.0-1.15bn",
       "snack_bars_cagr": "~10.3% CAGR 2025-2034 (to ~AUD 2.76bn by 2034)",
