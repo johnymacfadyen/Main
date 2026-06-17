@@ -1,0 +1,77 @@
+{
+  "phase": 0,
+  "phase_name": "Discovery",
+  "output_file": "phase0_discovery.json",
+  "status": "draft_for_approval",
+  "date": "2026-06-17",
+  "brand": {
+    "company_name": "The Yak Co Pty Ltd",
+    "company_registered": true,
+    "registration_jurisdiction": "Australia",
+    "product_name": "Yak Bar",
+    "brand_status": "new_brand"
+  },
+  "core_idea": {
+    "description": "An energy bar made with 100% natural ingredients, designed for active outdoor people, consumed before, during, or after exercise.",
+    "problem_solved": "Provides energy before/during/after endurance exercise without chemicals or non-natural ingredients. Conventional bars consumed in high volume during endurance activity cause nausea due to additives and sugar.",
+    "origin_story": "Sparked on a hike in Nepal where the only available energy bars were full of additives. During endurance activities (hiking, running, cycling) many bars are consumed to maintain energy, but the additives and sugar make you feel sick. Gap spotted for a clean, natural alternative."
+  },
+  "category_and_format": {
+    "category": "Energy bar",
+    "sub_category_positioning": "Established energy bar category; competing on cleaner ingredients and superior taste/texture (validated by existing formulation).",
+    "format": "Solid bar, breakable into 3 sections, each section with a known/defined energy profile for dosed energy intake on the move.",
+    "size": "~50g per bar",
+    "formulation_status": "Already formulated and tested with close friends.",
+    "flavours": [
+      {
+        "name": "Flavour 1",
+        "ingredients": ["dates", "oats", "peanuts", "pumpkin seeds", "cacao", "salt", "vanilla extract", "orange extract"]
+      },
+      {
+        "name": "Flavour 2",
+        "ingredients": ["dates", "oats", "cashews", "pumpkin seeds", "salt", "turmeric powder", "ginger powder", "vanilla extract"]
+      }
+    ],
+    "exclusions": "No artificial ingredients (no artificial flavours, colours, preservatives, or sweeteners).",
+    "headline_attributes": ["100% natural", "clean label", "contains oats (not gluten-free positioned)"]
+  },
+  "market_and_channel": {
+    "launch_market": "TBD — to be decided in Phase 1",
+    "candidate_markets": ["Australia", "New Zealand"],
+    "market_decision_note": "Market Opportunity (Phase 1) to analyse AUS vs NZ and recommend launch market.",
+    "channel_strategy": {
+      "launch": ["health food stores", "outdoor/sports retailers", "online", "cafes"],
+      "scale": ["supermarkets", "expanded online presence"]
+    },
+    "category_dynamics": "Entering an established, well-understood category; winning on cleaner ingredients and better taste/texture."
+  },
+  "target_consumer": {
+    "primary": "Health-conscious millennials willing to spend on quality products that are better for their health.",
+    "use_segment": "People doing exercise — athletes, weekend adventurers, endurance participants.",
+    "occasions": ["before exercise", "during exercise", "after exercise"],
+    "north_star_brand": "Clif Bar (benchmark to beat on clean ingredients and taste)."
+  },
+  "positioning_hints": {
+    "price_tier": "Premium — in line with premium bars currently available.",
+    "brand_associations": [
+      "best all-round energy bar",
+      "natural product",
+      "quality ingredients",
+      "power fuel to keep you going"
+    ]
+  },
+  "constraints": {
+    "budget": {
+      "to_market": "AUD ~20,000",
+      "working_capital_post_launch": "AUD ~20,000",
+      "structure": "founder-led, lean"
+    },
+    "manufacturing": {
+      "australia": "Struggled to find suitable manufacturers; most are gluten-free only and cannot/will not work with oats.",
+      "new_zealand": "Found NZ Fin — a government-backed program helping bring customers/products to market; able to work with oats at low MOQ.",
+      "key_challenges": ["low MOQ availability", "ability to process oats", "most manufacturers are gluten-free-only"],
+      "strategic_implication": "NZ-based manufacturing is a material input to the AUS-vs-NZ launch decision (cost, trans-Tasman freight, 'Made in NZ' provenance, logistics)."
+    },
+    "timeline": "Not yet specified."
+  }
+}
