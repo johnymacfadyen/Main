@@ -2,7 +2,7 @@
   "phase": 1,
   "phase_name": "Market Opportunity",
   "output_file": "phase1_market_opportunity.json",
-  "status": "draft_for_approval",
+  "status": "complete",
   "date": "2026-06-17",
   "methodology_note": "Researched independently via lightweight web search. Figures vary by source and by category definition (snack bars vs healthy snacks vs energy/nutrition bars); ranges and caveats are stated rather than a single false-precision number.",
   "data_caveats": [

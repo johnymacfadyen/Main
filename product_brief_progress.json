@@ -1,0 +1,27 @@
+{
+  "product": "Yak Bar (The Yak Co Pty Ltd)",
+  "brief_type": "Product Brief (business plan is a separate later exercise)",
+  "last_updated": "2026-06-17",
+  "phases": [
+    {"phase": 0, "name": "Discovery", "file": "phase0_discovery.json", "status": "complete"},
+    {"phase": 1, "name": "Market Opportunity", "file": "phase1_market_opportunity.json", "status": "complete"},
+    {"phase": 2, "name": "Target Consumer", "file": "phase2_target_consumer.json", "status": "not_started"},
+    {"phase": 3, "name": "Competitor Analysis", "file": "phase3_competitor_analysis.json", "status": "not_started"},
+    {"phase": 4, "name": "Product Vision", "file": "phase4_product_vision.json", "status": "not_started"},
+    {"phase": 5, "name": "Technical Specifications", "file": "phase5_technical_specs.json", "status": "not_started"},
+    {"phase": 6, "name": "Regulation / Compliance", "file": "phase6_regulation_compliance.json", "status": "not_started"},
+    {"phase": 7, "name": "Packaging", "file": "phase7_packaging.json", "status": "not_started"},
+    {"phase": 8, "name": "Positioning & Commercial Intent", "file": "phase8_positioning_commercial.json", "status": "not_started"},
+    {"phase": 9, "name": "Marketing", "file": "phase9_marketing.json", "status": "not_started"}
+  ],
+  "phase1_notes": {
+    "completed": ["TAM (AUS sourced, NZ assumption)", "SAM (segmentation, overlap weights, 2031 projection)", "Market growth drivers (snack bar + energy bar, AUS only, simplified lists)", "Consumer trends evidence", "Trans-Tasman strategic finding", "Opportunity assessment + recommendation"],
+    "deferred": ["SOM -> Commercial Strategy", "serviceable price band -> Commercial Strategy"],
+    "open_loose_ends": [
+      "User list footnotes (1) and (7) may reference an external source doc - swap in proper citation if provided.",
+      "Optional: physically nest driver lists under Market Sizing / SAM blocks.",
+      "Optional: align TAM/SAM to Australia-only (NZ figures currently retained for reference)."
+    ]
+  },
+  "resume_instruction": "Next: Phase 2 Target Consumer. Per the impartiality + sourcing rules, research who actually buys this category in Australia and what they demand (web-sourced, cited), then assess fit -- do not describe the assumed buyer."
+}
