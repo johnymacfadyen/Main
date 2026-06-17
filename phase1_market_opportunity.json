@@ -59,6 +59,56 @@
       },
       "global_ceiling_context": "Global energy bar market ~USD 4.12bn (2025) -> USD 4.42bn (2026), ~7.37% CAGR to USD 6.32bn by 2031 (context only, not the working TAM)."
     },
+    "SAM": {
+      "approach": "Segment the total snack bar market (Level 1), weight each sub-segment by genuine cross-shop/substitution overlap with Yak Bar's positioning, then apply the blended % to TAM. Channel-reach narrowing, serviceable price band, and SOM are deferred to the Commercial Strategy section.",
+      "level1_segmentation": {
+        "note": "Shares reconciled from conflicting source taxonomies to sum to 100% (Other removed). Workings retained in conversation.",
+        "segments": [
+          {"type": "Protein Bars", "est_share": "30%", "cagr": "~7%", "description": "High-protein, fitness/recovery; dominant value segment"},
+          {"type": "Cereal & Granola/Muesli", "est_share": "28%", "cagr": "~9%", "description": "Oat/grain-based lunchbox staple; mass-market, value-priced"},
+          {"type": "Energy & Nutrition", "est_share": "12%", "cagr": "~9%", "description": "Carb-led on-the-go fuel; sports/endurance function"},
+          {"type": "Fruit & Nut/Seed", "est_share": "22%", "cagr": "~9.4%", "description": "Date-bound dried fruit/nuts/seeds; clean-label; fastest growing"},
+          {"type": "Meal Replacement", "est_share": "5%", "cagr": "~5%", "description": "Full-meal substitute; functional"},
+          {"type": "Kids' Snack Bars", "est_share": "3%", "cagr": "~4%", "description": "Portion/format for children; distinct shopper"}
+        ],
+        "sources": [
+          "https://www.grandviewresearch.com/industry-analysis/snack-bars-market",
+          "https://straitsresearch.com/report/snack-bars-market",
+          "https://www.mordorintelligence.com/industry-reports/us-snack-bars-market",
+          "https://www.mordorintelligence.com/industry-reports/north-america-snack-bar-market",
+          "https://market.us/report/cereal-bar-market/"
+        ]
+      },
+      "yak_bar_overlap_weights": {
+        "rationale": "Weights reflect buyer-intent overlap, not mere ingredient presence. Energy & Nutrition is the core home; others are partial cross-shop only.",
+        "Energy & Nutrition": "100%",
+        "Fruit & Nut/Seed": "30%",
+        "Cereal & Granola/Muesli": "10%",
+        "Protein Bars": "10%",
+        "Meal Replacement / Kids'": "0%"
+      },
+      "blended_sam_pct_of_bar_market": {
+        "calc": "0.12*1.00 + 0.22*0.30 + 0.28*0.10 + 0.30*0.10 = 0.120 + 0.066 + 0.028 + 0.030 = 0.244",
+        "result": "24.4% of total bar market"
+      },
+      "blended_sam_cagr": {
+        "calc": "(12.0*9 + 6.6*9.4 + 2.8*9 + 3.0*7) / 24.4 = 216.24 / 24.4",
+        "result": "~8.9% (faster than overall snack bar ~6-7% because weighted into fastest-growing segments)"
+      },
+      "dollar_sam": {
+        "australia": {
+          "sam_2026": "AUD 317M (24.4% applied to upper-bound AUS snack bar TAM)",
+          "cagr_applied": "8.9%",
+          "sam_2031": "~AUD 485.5M (317 x 1.089^5)",
+          "yearly": {"2026": "317.0M", "2027": "345.2M", "2028": "375.9M", "2029": "409.4M", "2030": "445.9M", "2031": "485.5M"}
+        },
+        "new_zealand": {
+          "sam_2026": "~AUD 61M (24.4% of NZ TAM 250M)",
+          "note": "Forward rate to be confirmed (3% conservative vs 8.9% segment-blend)."
+        }
+      },
+      "deferred_to_commercial_strategy": ["channel-reach narrowing", "serviceable price band", "SOM", "market share targets"]
+    },
     "australia": {
       "snack_bars_market_value_2025": "~AUD 1.03 billion (one source); ~AUD 1.14 billion (another) — directional ~AUD 1.0-1.15bn",
       "snack_bars_cagr": "~10.3% CAGR 2025-2034 (to ~AUD 2.76bn by 2034)",
