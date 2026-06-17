@@ -130,33 +130,30 @@
     "impartial_note": "Evidence supports demand for natural/clean energy snacks, BUT taste and price are the dominant purchase drivers — a clean-ingredient story alone is not sufficient; taste and value must hold up."
   },
   "market_growth_drivers": {
-    "scope": "Australia only. Impartial, category-level drivers. Split into snack bar (broad) and energy bar (sub-category). Full lists shown for the user to prune to 'top' drivers later.",
+    "scope": "Australia only. Impartial, category-level drivers. Snack bar list belongs with Market Sizing context; energy bar list belongs with the Addressable Opportunity (SAM) section.",
+    "format_note": "Simplified to user-authored numbered lists.",
     "snack_bar_market": {
+      "placement": "Market Sizing section",
       "drivers": [
-        {"driver": "Protein demand", "evidence": "High-protein claims a leading purchase driver; protein/sports-nutrition the largest value segment (~49% revenue share, 2025)."},
-        {"driver": "Health-conscious / better-for-you shift", "evidence": "Demand for nutrient-dense, low-sugar, functional snacks replacing less-healthy options."},
-        {"driver": "On-the-go convenience", "evidence": "Busy lifestyles driving portable, single-serve snacking."},
-        {"driver": "Clean-label & ingredient transparency", "evidence": "Rising demand for natural, minimally-processed, transparently-labelled products."},
-        {"driver": "Plant-based / vegan / flexitarian shift", "evidence": "Growing demand for plant-protein, nut/seed, superfood formulations."},
-        {"driver": "Snacking-culture / meal-replacement behaviour", "evidence": "Snacking displacing structured meals; bars as breakfast/lunch substitutes."},
-        {"driver": "E-commerce / DTC growth", "evidence": "Online the fastest-growing retail channel (~7.1% CAGR 2026-2033)."},
-        {"driver": "Premiumisation", "evidence": "Willingness to pay more for quality, functional, values-based snacks."},
-        {"driver": "Sustainable / eco packaging", "evidence": "Rising consumer preference for recyclable/low-impact packaging."}
-      ],
-      "context": "AUS snack bars ~USD 0.87bn (2026) -> USD 1.2bn (2031), 6.62% CAGR; healthy snacks USD 1.92bn (2025) -> 2.96bn (2034), 4.8% CAGR."
+        "Rising health and awareness",
+        "Sports and fitness culture increase",
+        "On-the-go convenience and portability",
+        "Clean label / ingredient preference",
+        "Flavour and texture innovations",
+        "Rising interest in plant-based diets"
+      ]
     },
     "energy_bar_market": {
+      "placement": "Addressable Opportunity (SAM) section",
       "drivers": [
-        {"driver": "Sports & endurance nutrition demand", "evidence": "Sports/endurance nutrition led with 45.62% revenue share (2025); rising athlete & vigorous-activity participation."},
-        {"driver": "Fitness enthusiasm / gym & health-club participation", "evidence": "Growing gym, health-club and sports participation driving functional-bar demand."},
-        {"driver": "Health & wellness focus", "evidence": "Energy bars positioned as convenient, nutritious on-the-go fuel."},
-        {"driver": "Convenience / on-the-go fuelling", "evidence": "Portable energy for busy and active lifestyles."},
-        {"driver": "Natural & organic ingredient demand", "evidence": "Rising preference for natural/organic formulations within energy bars."},
-        {"driver": "Innovative flavours", "evidence": "Flavour innovation cited as a category growth trend."},
-        {"driver": "Sustainable packaging", "evidence": "Eco/sustainable packaging an emerging energy-bar trend."},
-        {"driver": "E-commerce / distribution expansion", "evidence": "Online & expanded retail channels widening reach."}
-      ],
-      "context": "AUS energy bars AUD 479.28M (2023), 7.11% CAGR (2018-2023), >7% forward."
+        "Increase in health and wellness",
+        "Convenient, on-the-go snacks",
+        "Provide sustained energy and nutrition",
+        "Plant based bars",
+        "Clean label bars - free from artificial ingredients",
+        "High in protein and fibre",
+        "Increase in e-commerce channels"
+      ]
     },
     "sources": [
       "https://www.6wresearch.com/industry-report/australia-energy-bar-market",
