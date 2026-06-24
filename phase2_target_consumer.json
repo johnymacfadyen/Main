@@ -2,7 +2,7 @@
   "phase": 2,
   "phase_name": "Target Consumer",
   "output_file": "phase2_target_consumer.json",
-  "status": "draft_for_approval",
+  "status": "complete",
   "date": "2026-06-24",
   "methodology_note": "Per standing instruction: segments were researched and sized independently for each bar sub-category (energy, fruit & nut, protein, cereal/granola) BEFORE any purchasing-channel or targeting decision was made, to avoid skewing the table toward Yak Bar's assumed plan (health food stores, outdoor retailers). Purchasing behaviour/location columns reflect what the research says about where these personas actually shop, not the channels in phase0_discovery.json. Primary/secondary/not-target selection is a deliberately separate, later step performed by the user from the master tables below.",
   "data_caveats": "Category-specific AUS consumer data is uneven in depth and availability. Energy bar and protein bar personas have the strongest sourcing (including some AUS-specific stats). Fruit & nut bar and cereal/granola bar personas rely more heavily on adjacent-category proxies (protein bar buyer splits, general FSANZ snacking data, global children's snack bar reports) because dedicated AUS fruit-bar/cereal-bar consumer studies were not found via lightweight search. All price ranges (AUD) are flagged as ESTIMATES from general AUS retail observation, not sourced data -- a direct attempt to fetch sourced AUD pricing (nutrithrive.com.au) returned HTTP 403 and could not be used.",
@@ -318,9 +318,55 @@
     ],
     "strategic_finding": "The cereal/granola buyer is largely price-driven, family/convenience-led, and mainstream -- a poor fit for a $3.50+ premium natural bar, consistent with Phase 1 weighting cereal at only 10% of the SAM overlap. The valuable overlap is the narrow 'health-conscious, lower-sugar, whole-grain' sliver, not the lunchbox volume core."
   },
+  "targeting_decision": {
+    "decided_by": "user",
+    "basis": "Selected from the master persona tables above after independent segment research, per the data-driven-order methodology (size/profile personas first, then choose targets -- not the reverse).",
+    "primary_customers": [
+      {
+        "customer": "Outdoor Enthusiasts",
+        "definition": "Hikers, climbers, runners, cyclists, weekend adventurers. People who spend hours to days outdoors at a moderate, steady effort and eat multiple bars across a trip to keep going. Unlike racing athletes, they need sustained, balanced energy -- a mix of carbs, fats, and protein rather than a fast-carb hit or a high-protein bar -- and they value real-food taste, portability, and a bar that survives being packed.",
+        "source_table": "energy_bar_customers"
+      },
+      {
+        "customer": "Active Sporty Enthusiasts (social sports, health-focused training, gym, fitness)",
+        "definition": "Habitual, several-times-a-week buyers focused on fuelling a workout or session. Interested in protein and recovery; want bars that hit their macro targets and taste good without a sugar load. Driven by self-improvement, discipline, and results.",
+        "source_table": "energy_bar_customers (Gym/Fitness Enthusiasts) and protein_bar_customers (cross-category framing)"
+      },
+      {
+        "customer": "Health-Conscious Individual",
+        "definition": "Everyday shoppers seeking a 'better-for-you' snack; read back-of-pack labels and favour recognisable whole-food, natural ingredients over 'healthy halo' marketing.",
+        "source_table": "fruit_bar_customers (Health-Conscious Snackers) / cereal_granola_bar_customers (Health-Conscious Consumers)"
+      }
+    ],
+    "secondary_customers": [
+      {
+        "customer": "Parents buying for Families",
+        "definition": "Parents buying multi-packs of bars as convenient, 'better-than-sugary-snacks' lunchbox and after-school fillers for their kids, balancing taste the children will accept against nutrition, sugar, and school nut-allergen rules.",
+        "source_table": "cereal_granola_bar_customers / fruit_bar_customers"
+      },
+      {
+        "customer": "Busy Professionals",
+        "definition": "Time-poor office workers and travellers buying convenient, ad-hoc 'better-than-chocolate' snacks via supermarkets, convenience stores, and online, motivated by convenience relief and managing the guilt of a healthier-but-easy choice.",
+        "source_table": "energy_bar_customers / cereal_granola_bar_customers / protein_bar_customers"
+      }
+    ],
+    "not_target_customers": [
+      {
+        "customer": "Students",
+        "reason": "Opportunistic buyer, constrained by budget -- poor fit for a premium price tier."
+      },
+      {
+        "customer": "Weight Management Seekers",
+        "reason": "Low sugar/keto framing, calorie-conscious -- not Yak Bar's positioning or formulation focus. User confirmed exclusion explicitly."
+      },
+      {
+        "customer": "Bodybuilders / Serious Gym Goers",
+        "reason": "Seeking maximum protein, low sugar; shop on price-per-gram-of-protein, which Yak Bar (a protein source via nuts, not a high-protein bar) cannot compete on."
+      }
+    ],
+    "scope_note": "Primary focus is the energy bar category. Full persona detail for energy, fruit, cereal, and protein bar customers is retained above as supporting appendix material for the targeting decision."
+  },
   "open_items_for_user": [
-    "Confirm whether 'Weight Management/Lifestyle Dieters' should be retained as a confirmed energy-bar persona (it was added as a gap-check finding and not yet explicitly confirmed).",
-    "Select primary / secondary / not-target customers from the four master tables above -- this is the next explicit step in Phase 2 and has not yet started.",
     "Decide whether to commission a dedicated AUS pricing pull (Woolworths/Coles/Chemist Warehouse listings for named brands) to replace estimated AUD price ranges with sourced figures."
   ],
   "sources_summary": [

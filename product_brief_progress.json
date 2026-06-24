@@ -1,11 +1,11 @@
 {
   "product": "Yak Bar (The Yak Co Pty Ltd)",
   "brief_type": "Product Brief (business plan is a separate later exercise)",
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-24",
   "phases": [
     {"phase": 0, "name": "Discovery", "file": "phase0_discovery.json", "status": "complete"},
     {"phase": 1, "name": "Market Opportunity", "file": "phase1_market_opportunity.json", "status": "complete"},
-    {"phase": 2, "name": "Target Consumer", "file": "phase2_target_consumer.json", "status": "not_started"},
+    {"phase": 2, "name": "Target Consumer", "file": "phase2_target_consumer.json", "status": "complete"},
     {"phase": 3, "name": "Competitor Analysis", "file": "phase3_competitor_analysis.json", "status": "not_started"},
     {"phase": 4, "name": "Product Vision", "file": "phase4_product_vision.json", "status": "not_started"},
     {"phase": 5, "name": "Technical Specifications", "file": "phase5_technical_specs.json", "status": "not_started"},
@@ -23,5 +23,12 @@
       "Optional: align TAM/SAM to Australia-only (NZ figures currently retained for reference)."
     ]
   },
-  "resume_instruction": "Next: Phase 2 Target Consumer. Per the impartiality + sourcing rules, research who actually buys this category in Australia and what they demand (web-sourced, cited), then assess fit -- do not describe the assumed buyer."
+  "phase2_notes": {
+    "completed": ["Master persona tables for energy, fruit & nut, protein, and cereal/granola bar buyers (independently sized/profiled before any channel assumption)", "Endurance Athletes vs Outdoor Enthusiasts split (sourced distinction)", "Primary/secondary/not-target customer selection (user-decided)"],
+    "primary": ["Outdoor Enthusiasts", "Active Sporty Enthusiasts (social sports/gym/fitness)", "Health-Conscious Individual"],
+    "secondary": ["Parents buying for Families", "Busy Professionals"],
+    "not_target": ["Students", "Weight Management Seekers", "Bodybuilders/Serious Gym Goers"],
+    "open_loose_ends": ["AUD price ranges across all tables are estimates, not sourced -- dedicated pricing pull deferred"]
+  },
+  "resume_instruction": "Next: Phase 3 Competitor Analysis. Per the impartiality + sourcing rules, research actual competitors in the energy bar (and adjacent) category independently -- direct natural/clean-label energy bar competitors, plus indirect competitors relevant to the primary/secondary customers selected in Phase 2 -- before assessing Yak Bar's positioning against them."
 }
