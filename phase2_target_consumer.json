@@ -1,0 +1,340 @@
+{
+  "phase": 2,
+  "phase_name": "Target Consumer",
+  "output_file": "phase2_target_consumer.json",
+  "status": "draft_for_approval",
+  "date": "2026-06-24",
+  "methodology_note": "Per standing instruction: segments were researched and sized independently for each bar sub-category (energy, fruit & nut, protein, cereal/granola) BEFORE any purchasing-channel or targeting decision was made, to avoid skewing the table toward Yak Bar's assumed plan (health food stores, outdoor retailers). Purchasing behaviour/location columns reflect what the research says about where these personas actually shop, not the channels in phase0_discovery.json. Primary/secondary/not-target selection is a deliberately separate, later step performed by the user from the master tables below.",
+  "data_caveats": "Category-specific AUS consumer data is uneven in depth and availability. Energy bar and protein bar personas have the strongest sourcing (including some AUS-specific stats). Fruit & nut bar and cereal/granola bar personas rely more heavily on adjacent-category proxies (protein bar buyer splits, general FSANZ snacking data, global children's snack bar reports) because dedicated AUS fruit-bar/cereal-bar consumer studies were not found via lightweight search. All price ranges (AUD) are flagged as ESTIMATES from general AUS retail observation, not sourced data -- a direct attempt to fetch sourced AUD pricing (nutrithrive.com.au) returned HTTP 403 and could not be used.",
+  "energy_bar_customers": {
+    "category_context": "Energy & Nutrition bars are Yak Bar's primary segment (100% overlap weight in Phase 1 SAM).",
+    "personas": [
+      {
+        "customer": "Endurance Athletes (runners, cyclists, triathletes)",
+        "segment_size_est": "Not separately sized in available sources; part of the structured-sport segment of energy bar buyers.",
+        "growth_rate_est": "Tracks energy & nutrition bar CAGR per Phase 1 SAM (~8.9% blended AUS).",
+        "profile_summary": "Train and race at high intensity; need rapid, easily digestible fuel during effort. Prefer low-fibre (<=2g), high-carb bars (~40g carbs) for fast absorption -- the body can process only ~60g carbs/hour during activity. Ultra-distance events tolerate small protein additions (~5g) for muscle support.",
+        "purchase_frequency": "Very high during racing/training blocks (multiple bars per long session); otherwise occasional.",
+        "price_range_aud_est": "$3.00-$5.50/bar (estimated, general AUS retail positioning).",
+        "purchasing_behaviour_location": "Specialist run/triathlon stores, online (Maurten, SiS, and similar performance brands), sports nutrition retailers.",
+        "needs": "Fast carb absorption, low fibre/fat (avoid GI distress during exertion), proven race-day reliability.",
+        "pain_points": "High-fibre/fat 'natural' bars can cause stomach distress mid-race; flavour fatigue on long events.",
+        "emotional_drivers": "Performance, precision, race-day trust.",
+        "sources": ["https://www.rei.com/learn/expert-advice/energy-foods.html", "https://thedietitianrunner.com/protein-bars-vs-energy-bars-for-runners-how-to-choose-the-right-one/"]
+      },
+      {
+        "customer": "Outdoor Enthusiasts (hikers, climbers, weekend adventurers)",
+        "segment_size_est": "Not separately sized; largest qualitative group in hiking-gear consumer content.",
+        "growth_rate_est": "Tracks energy & nutrition bar CAGR per Phase 1 SAM (~8.9% blended AUS).",
+        "profile_summary": "People who spend hours to days outdoors at a moderate, steady effort and eat multiple bars across a trip to keep going. Unlike racing athletes, they need sustained, balanced energy -- a mix of carbs, fats, and protein rather than a fast-carb hit or a high-protein bar -- and they value real-food taste, portability, and a bar that survives being packed.",
+        "purchase_frequency": "Trip-based (multiple bars per trip); several times/month for regular hikers.",
+        "price_range_aud_est": "$3.00-$5.50/bar (estimated, general AUS retail positioning).",
+        "purchasing_behaviour_location": "Outdoor/camping retailers, health food stores, online, before/during trips.",
+        "needs": "Sustained energy over hours, satiety, portability/durability (heat, packing), real-food taste.",
+        "pain_points": "Many 'energy' bars are sugar-spike/short-duration, not built for multi-hour sustained effort; bars melting/crumbling in packs.",
+        "emotional_drivers": "Adventure, self-reliance, enjoyment of the outdoors (lower performance-pressure than racing athletes).",
+        "sources": ["https://www.rei.com/learn/expert-advice/energy-foods.html"]
+      },
+      {
+        "customer": "Gym/Fitness Enthusiasts",
+        "segment_size_est": "Not separately sized in available sources.",
+        "growth_rate_est": "Tracks energy & nutrition bar CAGR per Phase 1 SAM (~8.9% blended AUS).",
+        "profile_summary": "Regular gym-goers using energy bars around training sessions for convenient pre/post-workout fuel, valuing taste and clean ingredients over precise sports-nutrition formulation.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$3.00-$5.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, health food stores, online, gym vending/cafes.",
+        "needs": "Convenient pre/post-workout snack, reasonable nutrition, good taste.",
+        "pain_points": "Overlap/confusion with protein bar category; many bars feel either too 'sporty' or too indulgent.",
+        "emotional_drivers": "Self-improvement, routine, convenience.",
+        "sources": ["Carried forward from category research conducted earlier in this phase; not independently re-sourced for this consolidation."]
+      },
+      {
+        "customer": "Busy Professionals",
+        "segment_size_est": "Not separately sized in available sources.",
+        "growth_rate_est": "Tracks energy & nutrition bar CAGR per Phase 1 SAM (~8.9% blended AUS).",
+        "profile_summary": "Working adults using energy bars as a quick meal/snack substitute during demanding workdays, prioritising convenience and reasonable nutrition over performance framing.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$2.50-$5.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, convenience stores, online, office pantries.",
+        "needs": "Convenience, satiety, no-mess, reasonable nutrition.",
+        "pain_points": "Time pressure limits ability to seek out genuinely 'good' options; default to what's available.",
+        "emotional_drivers": "Convenience, time-saving, mild guilt-reduction.",
+        "sources": ["Carried forward from category research conducted earlier in this phase; not independently re-sourced for this consolidation."]
+      },
+      {
+        "customer": "Weight Management/Lifestyle Dieters",
+        "segment_size_est": "~46% of US energy bar market by one source -- flagged as a potentially significant persona initially missing from the table; not confirmed AUS-specific.",
+        "growth_rate_est": "Not separately sourced.",
+        "profile_summary": "Consumers using energy bars as a portion-controlled, lower-sugar snack or meal substitute as part of general weight management or lifestyle dieting, rather than for athletic performance.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$3.00-$5.50/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets 'better-for-you' aisles, online, pharmacies/health stores.",
+        "needs": "Low sugar, portion control, satiety, calorie awareness.",
+        "pain_points": "Skepticism toward 'healthy' marketing claims; many bars are higher in sugar/calories than expected.",
+        "emotional_drivers": "Control, self-discipline, body image.",
+        "sources": ["Referenced in earlier US energy bar market-share research; flagged as US data, not independently verified for AUS."],
+        "note": "This persona was identified as a gap-check addition; user had not yet explicitly confirmed inclusion at time of consolidation -- retained here for completeness, subject to user review."
+      }
+    ],
+    "strategic_finding": "Yak Bar's actual formulation (date/oat-based, higher fibre, balanced fat/carb/protein) maps more closely to the Outdoor Enthusiast need (sustained, balanced energy) than the Endurance Athlete need (low-fibre, fast-carb, GI-safe during high intensity). The higher-fibre, whole-food ingredients that support the 'natural' positioning are flagged in endurance-nutrition literature as a GI risk during high-intensity racing. This is reported as an honest finding, not adjusted to favour the product."
+  },
+  "fruit_bar_customers": {
+    "category_context": "Fruit & Nut/Seed bars receive a 30% overlap weight in Phase 1 SAM (Yak Bar is ~20% date-based).",
+    "data_quality_note": "Dedicated AUS fruit-and-nut snack bar consumer data is sparse; this table leans on adjacent-category proxies (protein bar buyer segments, FSANZ general snacking attitudes, global children's snack bar data, US organic-claims share). Frozen fruit bars (ice/dairy confection, USD 4.04bn to USD 6.93bn by 2032, 6.2% CAGR) were explicitly excluded as a different product category.",
+    "personas": [
+      {
+        "customer": "Health-Conscious Snackers (general)",
+        "segment_size_est": "Largest single group context; 66% of AUS consumers value nutrition over convenience when snacking (FSANZ 2023).",
+        "growth_rate_est": "Category-level fruit-and-nut bar CAGR cited at ~9.39% in source material; AUS-specificity not confirmed.",
+        "profile_summary": "Everyday shoppers seeking a 'better-for-you' snack; read back-of-pack labels (70% trust them per FSANZ) and favour recognisable whole-food ingredients.",
+        "purchase_frequency": "Weekly.",
+        "price_range_aud_est": "$2.50-$5.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, health food aisles, online.",
+        "needs": "Natural ingredients, recognisable whole foods, portion-controlled snacking.",
+        "pain_points": "Confused by 'healthy halo' marketing vs actual sugar/additive content.",
+        "emotional_drivers": "Self-care, guilt-free indulgence.",
+        "sources": ["FSANZ 2023 Consumer Insights Tracker"]
+      },
+      {
+        "customer": "Health-Conscious Parents (buying for kids)",
+        "segment_size_est": "Children's snack bar market: USD 420.25M (2025) globally.",
+        "growth_rate_est": "2.03% CAGR (global, children's snack bars).",
+        "profile_summary": "Parents selecting bars for kids' lunchboxes; prioritise low/no added sugar and organic ingredients where possible, balanced against what kids will actually eat.",
+        "purchase_frequency": "Several times/week (lunchbox staple).",
+        "price_range_aud_est": "$3-$6 per multi-pack unit (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, school canteens (indirect), online subscription snack boxes.",
+        "needs": "No added sugar, allergen safety, fun format/taste kids will eat.",
+        "pain_points": "Balancing kids' taste preferences against nutrition goals; label-reading fatigue.",
+        "emotional_drivers": "Protective/nurturing -- 'doing right by my child'.",
+        "sources": ["Children's Snack Bar Market report (global figures, not AUS-specific)"]
+      },
+      {
+        "customer": "Commuters/On-the-go Convenience Seekers",
+        "segment_size_est": "Not sourced for fruit bars specifically; proxy from protein bar segment data.",
+        "growth_rate_est": "Not sourced for this segment specifically.",
+        "profile_summary": "City dwellers and travellers needing a quick, no-mess snack between meetings or transit.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$2-$4/bar (estimated).",
+        "purchasing_behaviour_location": "Convenience stores, service stations, vending, office pantries.",
+        "needs": "Portability, no refrigeration needed, quick energy without heaviness.",
+        "pain_points": "Limited time to seek out 'good' options -- often default to whatever's available.",
+        "emotional_drivers": "Convenience-driven, low emotional stakes vs other segments.",
+        "sources": ["Proxy inference; not independently sourced for fruit bars"]
+      },
+      {
+        "customer": "Plant-Based/Clean-Label Shoppers",
+        "segment_size_est": "Organic claims = 37.07% share of US healthy snacks category (2024) -- US proxy, not AUS-specific or fruit-bar-specific.",
+        "growth_rate_est": "Not directly sourced for this sub-segment.",
+        "profile_summary": "Actively seek pea/soy protein, nuts, seeds, superfoods (chia, quinoa); scrutinise ingredient lists closely.",
+        "purchase_frequency": "Weekly-fortnightly.",
+        "price_range_aud_est": "$4-$7/bar (estimated, premium tier).",
+        "purchasing_behaviour_location": "Health food stores, online, specialty grocers.",
+        "needs": "Plant-based, allergen-free, minimal/recognisable ingredient lists.",
+        "pain_points": "Premium price sensitivity; scepticism toward 'natural' marketing claims.",
+        "emotional_drivers": "Identity/values-driven (ethical eating, environmental concern).",
+        "sources": ["US organic-claims share data, used as directional proxy only"]
+      },
+      {
+        "customer": "Date-Sweetened/No-Added-Sugar Seekers",
+        "segment_size_est": "Not sized separately; described qualitatively as a growing label trend.",
+        "growth_rate_est": "Fruit-and-nut bar CAGR ~9.39% cited in context of this trend.",
+        "profile_summary": "Consumers specifically avoiding added/refined sugar; drawn to date-based sweetening as a 'natural sugar' workaround.",
+        "purchase_frequency": "Weekly.",
+        "price_range_aud_est": "$3-$6/bar (estimated).",
+        "purchasing_behaviour_location": "Health food stores, online, supermarket 'free-from' sections.",
+        "needs": "No added/refined sugar, natural sweetening, ingredient transparency.",
+        "pain_points": "Skepticism about whether date-sweetened bars are genuinely lower-sugar (still high glycemic).",
+        "emotional_drivers": "Health optimisation, avoiding 'hidden sugar' guilt.",
+        "sources": ["General market research search result; specific publisher not confirmed -- treat as indicative, not verified primary source"]
+      }
+    ]
+  },
+  "protein_bar_customers": {
+    "category_context": "Protein bars receive a 10% overlap weight in Phase 1 SAM (Yak Bar is a source of protein via nuts but not a high-protein bar). This is the best-evidenced category table, including AUS-specific market sizing.",
+    "market_context": "AUS protein bar market: USD 286.71M (2025), 5.65% CAGR to USD 496.75M by 2035.",
+    "personas": [
+      {
+        "customer": "Athletes (pro & amateur)",
+        "segment_size_est": "~46% of global protein bar demand by application.",
+        "growth_rate_est": "Tracks AUS market ~5.65% CAGR.",
+        "profile_summary": "61%+ use bars for energy replenishment, muscle recovery, nutritional convenience; favour concentrated whey/blended protein.",
+        "purchase_frequency": "Several times/week to daily.",
+        "price_range_aud_est": "$3.50-$6.00/bar (estimated).",
+        "purchasing_behaviour_location": "Sports nutrition retailers, gyms, online supplement stores, supermarkets.",
+        "needs": "High protein density, fast recovery, proven performance, macros.",
+        "pain_points": "Want clean protein but many bars taste 'chalky'/artificial; sugar-alcohol GI issues.",
+        "emotional_drivers": "Performance, discipline, achievement.",
+        "sources": ["https://www.businessresearchinsights.com/market-reports/protein-bar-market-117490", "https://www.360researchreports.com/market-reports/protein-bars-market-212257"]
+      },
+      {
+        "customer": "Bodybuilders/Serious Gym-Goers",
+        "segment_size_est": "~31% of global protein bar demand by application.",
+        "growth_rate_est": "~5.65% CAGR (AUS).",
+        "profile_summary": "72% of competitive bodybuilders consume protein bars daily; 54% of use is post-workout.",
+        "purchase_frequency": "Daily.",
+        "price_range_aud_est": "$3.50-$6.50/bar (estimated).",
+        "purchasing_behaviour_location": "Supplement stores (online & physical), gyms.",
+        "needs": "Maximum protein, low sugar, ingredient transparency, macro precision.",
+        "pain_points": "Price per gram of protein; ingredient scrutiny; flavour fatigue from daily use.",
+        "emotional_drivers": "Identity, physique goals, control.",
+        "sources": ["https://www.businessresearchinsights.com/market-reports/protein-bar-market-117490"]
+      },
+      {
+        "customer": "Women in Strength/Functional Fitness",
+        "segment_size_est": "Adult females dominate the end-user segment per one source -- sizeable and growing.",
+        "growth_rate_est": "Named as a primary above-category growth driver in AUS market research.",
+        "profile_summary": "Women in strength training and functional fitness seeking clean-label, plant-friendly protein bars marketed around empowerment and wellness rather than weight loss, despite many products still defaulting to diet-focused messaging.",
+        "purchase_frequency": "Few times/week.",
+        "price_range_aud_est": "$3.50-$6.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, online subscription boxes, fitness/wellness communities.",
+        "needs": "Clean-label, plant-based options, convenient nutrition, no 'diet' stigma.",
+        "pain_points": "Marketing that still defaults to weight-loss messaging; added sugar.",
+        "emotional_drivers": "Empowerment, wellness, self-investment.",
+        "sources": ["https://www.expertmarketresearch.com/reports/australia-protein-bar-market", "https://www.skyquestt.com/report/protein-bar-market"]
+      },
+      {
+        "customer": "Gen Z/Younger Mainstream",
+        "segment_size_est": "33% of Gen Z integrate bars into daily routine; Millennials+Gen Z drive ~60% of new bar consumption globally.",
+        "growth_rate_est": "Highest-growth cohort cited in AUS market research.",
+        "profile_summary": "Treat protein bars as everyday functional snacks/confectionery replacement, not gym-only products.",
+        "purchase_frequency": "Daily to several times/week.",
+        "price_range_aud_est": "$3.00-$5.50/bar (estimated).",
+        "purchasing_behaviour_location": "Online (double-digit YoY growth), subscription boxes, supermarkets, convenience stores.",
+        "needs": "Taste-first, convenience, social/brand identity, 'healthier than chocolate' framing.",
+        "pain_points": "Want indulgent taste AND function; price sensitivity at daily-use frequency.",
+        "emotional_drivers": "Belonging, identity, low-effort health.",
+        "sources": ["https://www.skyquestt.com/report/protein-bar-market"]
+      },
+      {
+        "customer": "Busy Professionals/Students (general wellness)",
+        "segment_size_est": "Part of ~23% 'other consumers' by application; ~28% of buyers seek everyday nutritional support.",
+        "growth_rate_est": "~5.65% CAGR (AUS).",
+        "profile_summary": "Use bars as meal-replacement/snack for convenience, not athletic performance; positioned as a 'healthier alternative to confectionery'.",
+        "purchase_frequency": "Few times/week.",
+        "price_range_aud_est": "$2.50-$5.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, convenience stores, office pantries, online.",
+        "needs": "Satiety, convenience, no-mess, reasonable nutrition.",
+        "pain_points": "Overwhelmed by macro/marketing claims; want 'good enough plus convenient'.",
+        "emotional_drivers": "Convenience, mild guilt-reduction.",
+        "sources": ["https://www.businessresearchinsights.com/market-reports/protein-bar-market-117490"]
+      },
+      {
+        "customer": "Weight-Management/Low-Sugar Seekers",
+        "segment_size_est": "Sub-set of 'other consumers'; low-sugar/keto options specifically named.",
+        "growth_rate_est": "~5.65% CAGR (AUS).",
+        "profile_summary": "Choose bars for appetite control, low-sugar/keto framing.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$3.50-$6.50/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets 'free-from' aisles, online, pharmacies.",
+        "needs": "Low sugar, high protein for satiety, calorie control.",
+        "pain_points": "Skepticism about keto/low-sugar claims; sugar-alcohol digestive issues.",
+        "emotional_drivers": "Control, self-discipline, body image.",
+        "sources": ["https://www.businessresearchinsights.com/market-reports/protein-bar-market-117490"]
+      }
+    ],
+    "strategic_finding": "Protein bar buyers skew toward performance/macro needs that Yak Bar (a source of protein via nuts, but not high-protein) only partially serves -- consistent with the Phase 1 decision to weight protein at just 10% of the SAM overlap."
+  },
+  "cereal_granola_bar_customers": {
+    "category_context": "Cereal & Granola/Muesli bars receive a 10% overlap weight in Phase 1 SAM. Cereal bars held 43.12% of the AUS snack bar market in 2025 -- the largest single AUS snack-bar sub-category by volume, but lower-priced and more mainstream/family-oriented than energy or protein bars.",
+    "personas": [
+      {
+        "customer": "Families with Children (parents buying)",
+        "segment_size_est": "Core volume buyer of the 43.12% AUS cereal-bar segment.",
+        "growth_rate_est": "Tracks AUS cereal/breakfast category ~3.6% CAGR.",
+        "profile_summary": "Parents buying multi-packs of bars as convenient, 'better-than-sugary-snacks' lunchbox and after-school fillers for their kids, balancing taste the children will accept against nutrition, sugar, and school nut-allergen rules.",
+        "purchase_frequency": "Weekly (multi-pack staple).",
+        "price_range_aud_est": "$0.80-$2.00/bar, multi-pack unit (estimated).",
+        "purchasing_behaviour_location": "Supermarkets (45% of category sales), online grocery.",
+        "needs": "Convenient, affordable, kid-approved taste, whole-grain/fibre, portion-control minis.",
+        "pain_points": "Hidden sugar in 'healthy' lunchbox bars; allergen (nut) restrictions for schools.",
+        "emotional_drivers": "Nurturing, convenience, 'doing right by family'.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market", "https://www.imarcgroup.com/australia-breakfast-cereal-market"]
+      },
+      {
+        "customer": "Busy Professionals (breakfast-on-the-go)",
+        "segment_size_est": "Large mainstream segment; named primary AUS growth driver.",
+        "growth_rate_est": "~3.6% CAGR.",
+        "profile_summary": "Working adults grabbing a bar as breakfast/snack between demands (e.g. Uncle Tobys breakfast bars).",
+        "purchase_frequency": "Several times/week to daily.",
+        "price_range_aud_est": "$1.00-$2.50/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, convenience stores, office pantries.",
+        "needs": "Quick breakfast replacement, whole grains/oats, no-mess, satiety.",
+        "pain_points": "Want 'real breakfast' nutrition but settle for convenience; sugar content.",
+        "emotional_drivers": "Convenience, time-saving, mild guilt-reduction.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market"]
+      },
+      {
+        "customer": "Students",
+        "segment_size_est": "Sub-set of mainstream convenience buyers.",
+        "growth_rate_est": "~3.6% CAGR.",
+        "profile_summary": "Budget-conscious young people needing cheap, filling, portable snacks/breakfast.",
+        "purchase_frequency": "Several times/week.",
+        "price_range_aud_est": "$0.80-$2.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, convenience stores, campus outlets.",
+        "needs": "Affordability, filling, convenience, taste.",
+        "pain_points": "Price sensitivity; nutrition often secondary to cost/taste.",
+        "emotional_drivers": "Convenience, low effort.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market"]
+      },
+      {
+        "customer": "Health-Conscious Consumers",
+        "segment_size_est": "Crosses category; 56% of bar buyers prioritise 'great tasting', 34% texture (US/global data).",
+        "growth_rate_est": "Above-category (health-positioned products growing faster than category average).",
+        "profile_summary": "Choose granola/muesli for whole grains, fibre, natural sweeteners, fortification, positioned as nutritious convenient food.",
+        "purchase_frequency": "Weekly.",
+        "price_range_aud_est": "$2.00-$4.00/bar, premium muesli (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, health food aisles, online.",
+        "needs": "Whole grains, lower sugar, clean ingredients, fibre, natural sweeteners.",
+        "pain_points": "'Healthy halo' vs actual sugar; many granola bars are high-sugar.",
+        "emotional_drivers": "Self-care, guilt-free, wellness.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/cereal-bar-market", "https://www.futuremarketinsights.com/reports/cereal-bars-market"]
+      },
+      {
+        "customer": "Athletes/Fitness Enthusiasts",
+        "segment_size_est": "Smaller within cereal category (this group skews more to protein bars).",
+        "growth_rate_est": "~3.6% CAGR.",
+        "profile_summary": "Use granola/oat bars for sustained carbohydrate energy rather than protein; prefer lower sugar.",
+        "purchase_frequency": "Few times/week.",
+        "price_range_aud_est": "$2.00-$4.00/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets, health stores, online.",
+        "needs": "Sustained carb energy, whole grains, lower sugar.",
+        "pain_points": "Cereal bars often too sugary/not enough protein for their goals.",
+        "emotional_drivers": "Performance, sustained energy.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/cereal-bar-market"]
+      },
+      {
+        "customer": "Weight-Management/Low-Carb Consumers",
+        "segment_size_est": "Niche within category.",
+        "growth_rate_est": "~3.6% CAGR.",
+        "profile_summary": "Seek portion-controlled, lower-sugar/lower-carb granola formats.",
+        "purchase_frequency": "Few times/week.",
+        "price_range_aud_est": "$2.50-$4.50/bar (estimated).",
+        "purchasing_behaviour_location": "Supermarkets 'better-for-you' aisles, online.",
+        "needs": "Portion control (minis), lower sugar/carb, satiety.",
+        "pain_points": "Most granola bars are carb/sugar-heavy -- hard to find compliant options.",
+        "emotional_drivers": "Control, body image.",
+        "sources": ["https://www.mordorintelligence.com/industry-reports/cereal-bar-market"]
+      }
+    ],
+    "strategic_finding": "The cereal/granola buyer is largely price-driven, family/convenience-led, and mainstream -- a poor fit for a $3.50+ premium natural bar, consistent with Phase 1 weighting cereal at only 10% of the SAM overlap. The valuable overlap is the narrow 'health-conscious, lower-sugar, whole-grain' sliver, not the lunchbox volume core."
+  },
+  "open_items_for_user": [
+    "Confirm whether 'Weight Management/Lifestyle Dieters' should be retained as a confirmed energy-bar persona (it was added as a gap-check finding and not yet explicitly confirmed).",
+    "Select primary / secondary / not-target customers from the four master tables above -- this is the next explicit step in Phase 2 and has not yet started.",
+    "Decide whether to commission a dedicated AUS pricing pull (Woolworths/Coles/Chemist Warehouse listings for named brands) to replace estimated AUD price ranges with sourced figures."
+  ],
+  "sources_summary": [
+    "https://www.rei.com/learn/expert-advice/energy-foods.html",
+    "https://thedietitianrunner.com/protein-bars-vs-energy-bars-for-runners-how-to-choose-the-right-one/",
+    "https://www.businessresearchinsights.com/market-reports/protein-bar-market-117490",
+    "https://www.360researchreports.com/market-reports/protein-bars-market-212257",
+    "https://www.expertmarketresearch.com/reports/australia-protein-bar-market",
+    "https://www.skyquestt.com/report/protein-bar-market",
+    "https://www.mordorintelligence.com/industry-reports/australia-snack-bar-market",
+    "https://www.mordorintelligence.com/industry-reports/cereal-bar-market",
+    "https://www.imarcgroup.com/australia-breakfast-cereal-market",
+    "https://www.futuremarketinsights.com/reports/cereal-bars-market",
+    "FSANZ 2023 Consumer Insights Tracker (cited in search synthesis, no direct URL captured)",
+    "Children's Snack Bar Market report (cited in search synthesis, no direct URL captured)"
+  ]
+}
